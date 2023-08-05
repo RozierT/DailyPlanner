@@ -1,7 +1,7 @@
 # DailyPlanner
 A work day scheduling app
 
-The folowwing are the READ ME instructions provided
+Below are the READ ME instructions provided
 # 05 Third-Party APIs: Work Day Scheduler
 
 ## Your Task
