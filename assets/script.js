@@ -7,7 +7,6 @@ const today = dayjs();
 
 $(function(){
   var currentHour = dayjs().format('H');
-  console.log(currentHour);
 
   function timeBlockFormat(){
     $('.time-block').each(function(){
@@ -18,7 +17,23 @@ $(function(){
     });
   }
 
+  function saveToLocal (){
+    $('.saveBtn').on('click', function(){
+      const key = $(this).parent().attr('id');
+      const value = $(this).siblings('.desciption').val();
+      localStorage.setItem(key, value);
+      console.log("value iz "+value);
+    });
+  }
+
+  $('.time-block').each(function(){
+    const key = $(this).attr('id');
+    const value = localStorage.getItem(key);
+    $(this).children('.description').val(value);
+  });
+
   timeBlockFormat();
+  saveToLocal();
 })
 
 
