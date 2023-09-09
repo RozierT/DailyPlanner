@@ -1,7 +1,35 @@
 # DailyPlanner
-A work day scheduling app
 
-Below are the READ ME instructions provided
+## Description
+
+This is a daily schedule that can be used to help plan out your 9-5 work day and help keep you focused on the correct task. It is broken up by hour and color coded to show you what you should be working on now, what is coming in the future, and what things you should have completed
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+navigate to github.com/roziert/dailyplanner and copy the SSH key for the code into a local repository or visit https://roziert.github.io/DailyPlanner/ to use the app online
+
+## Usage
+
+![!\[Screenshot\](.assets/images/image.png)](assets/images/image.png)
+
+
+## License
+
+MIT
+
+---
+
+
+
+Below are the instructions that were provided to me for this challenge
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 ## Your Task
